@@ -18,4 +18,5 @@
 
 /* _____________ ここにコードを記入 _____________ */
 
+// 最初にneverが分からなくて、anyにしてしまっていた
 type MyExclude<T, U> = T extends U ? never : T;
